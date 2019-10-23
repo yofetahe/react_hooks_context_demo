@@ -5,6 +5,7 @@ import { useCounterContext } from "../context/CounterContext";
 export default function CounterDisplay(){
 
     const {count} = useCounterContext();
+    
     return (
         <Statistic>
             <Statistic.Value>{count}</Statistic.Value>
